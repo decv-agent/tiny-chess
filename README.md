@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/decv-agent/tiny-chess/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/decv-agent/tiny-chess/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-tiny-chess is a chess engine that fits in 4,021 bytes of Python: a single `main.py` holding an
+tiny-chess is a chess engine that fits in 4,022 bytes of Python: a single `main.py` holding an
 lzma-packed negamax search — alpha-beta with PVS and late-move reductions, quiescence search, a
 transposition table, MVV-LVA move ordering and piece-square-table evaluation with incremental
 make/unmake and Zobrist hashing. It searches a fixed budget of 55,000 nodes per move, never a
@@ -24,5 +24,5 @@ that protocol.
 
 ## The files
 
-- `main.py`: the whole engine, 4,021 bytes as committed.
+- `main.py`: the whole engine, 4,022 bytes as committed.
 - `LICENSE`: MIT.
